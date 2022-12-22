@@ -6,9 +6,9 @@
         margin: 0 auto;
     }
     .slick-prev, .slick-next {
-        position: absolute ;
+        position: absolute;
         top: 50%;
-        transform: translateY(-50% );
+        transform: translateY(-50%);
         left: -66px;
         border: none;
         background-color: #fff;
@@ -20,5 +20,9 @@
     .slick-next {
         right: -66px;
         left: auto;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #6b6b6b;
     } 
 }

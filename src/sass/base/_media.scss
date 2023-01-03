@@ -67,7 +67,29 @@
         button {
             display: none;
         }
-    }     
+    } 
+    .footer {
+        &__info {
+            width: 380px;
+            height: 250px;
+            padding: 45px 44px 58px 44px;
+        }
+        &__addr {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        &__phone {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+            img {
+                height: 25px;
+            }
+        }
+    }    
 }
 @media (max-width: 767px) {
     .container {
@@ -147,6 +169,28 @@
             }
         }
     }
+    .footer {
+        &__info {
+            width: 345px;
+            height: 210px;
+            padding: 33px 40px 33px 40px;
+        }
+        &__addr {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        &__phone {
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+        &__social-item {
+            width: 42px;
+            height: 42px;
+            img {
+                height: 23px;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .container {
@@ -200,6 +244,10 @@
         &__item {
             margin-top: 17px;
             width: 290px;
+        }
+        &__descr {
+            margin-left: 5px;
+            margin-right: 5px;
         }
     }
     .title {
@@ -263,6 +311,49 @@
         }
         &__count {
             text-align: center;
+        }
+        &__descr {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 280px;
+            height: 185px;
+            padding: 28px 25px 28px 25px;
+        }
+        &__addr {
+            font-size: 15px;
+            margin-bottom: 17px;
+        }
+        &__phone {
+            font-size: 15px;
+            margin-bottom: 17px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 20px;
+            }
+        }
+    }
+    .modal {
+        width: 280px;
+        padding: 38px 19px 40px 19px;
+        .feed-form {
+            width: 232px;
+            margin: 0 auto;
+            margin-top: 25px;
+            input {
+                height: 45px; 
+            }
+        }
+        &__close {
+            right: 15px;
+            top: -35px;
+            font-size: 32px;
         }
     }
 }
